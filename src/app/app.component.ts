@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>Hello {{value}}</div>`,
+  template: `<div>Hello my name is {{name}}</div>`,
 })
 export class AppComponent {
-  value = 'World';
+  name = 'Ricardo Portillo';
 }
